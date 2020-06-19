@@ -5,7 +5,7 @@ android {
     ndkVersion '17.1.4828580'
     
     defaultConfig {
-        applicationId "com.minhui.networkcapture"
+        applicationId "com.ecent.networkcapture"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
