@@ -8,7 +8,7 @@
     <string name="setting">设置</string>
     <string name="clear_history">清除历史记录</string>
     <string name="success_clear_history_data">成功清除所有历史记录！</string>
-    <string name="select_package">选择您想要抓包的引用</string>
+    <string name="select_package">选择您想要抓包的应用</string>
     <string name="system">系统</string>
     <string name="unknow">未知应用</string>
     <string name="capture_data">历史抓包记录</string>
