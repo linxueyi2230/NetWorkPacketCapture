@@ -5,11 +5,12 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
+import androidx.annotation.Nullable;
 
 import com.minhui.vpn.ProxyConfig;
 import com.minhui.vpn.nat.NatSession;
@@ -27,7 +28,6 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 import static com.minhui.vpn.VPNConstants.DEFAULT_PACKAGE_ID;
-import static com.minhui.vpn.VPNConstants.VPN_SP_NAME;
 
 
 /**

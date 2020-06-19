@@ -3,7 +3,8 @@ package com.minhui.networkcapture;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
-import android.widget.TextView;
+
+import androidx.appcompat.widget.AppCompatTextView;
 
 /**
  * @author minhui.zhu
@@ -11,7 +12,7 @@ import android.widget.TextView;
  *         Copyright © 2017年 Oceanwing. All rights reserved.
  */
 
-public class SmartTextView extends android.support.v7.widget.AppCompatTextView {
+public class SmartTextView extends AppCompatTextView {
 
 
     public SmartTextView(Context context) {

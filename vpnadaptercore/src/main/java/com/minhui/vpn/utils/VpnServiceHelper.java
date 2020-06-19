@@ -87,7 +87,7 @@ public class VpnServiceHelper {
             }
         } else if (sVpnService != null) {
             boolean stopStatus = false;
-            sVpnService.setVpnRunningStatus(stopStatus);
+            sVpnService.setVpnRunningStatus(false);
         }
     }
     public static List<NatSession> getAllSession() {
@@ -95,7 +95,7 @@ public class VpnServiceHelper {
             return null;
         }
         try {
-            File file = new File(VPNConstants.CONFIG_DIR +FirewallVpnService. lastVpnStartTimeFormat);
+            File file = new File(VPNConstants.CONFIG_DIR +FirewallVpnService.lastVpnStartTimeFormat);
             ACache aCache = ACache.get(file);
             String[] list = file.list();
             ArrayList<NatSession> baseNetSessions = new ArrayList<>();

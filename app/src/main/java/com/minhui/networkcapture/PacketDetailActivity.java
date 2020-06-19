@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +13,8 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.minhui.vpn.VPNConstants;
+import androidx.annotation.Nullable;
+
 import com.minhui.vpn.utils.SaveDataFileParser;
 import com.minhui.vpn.utils.ThreadProxy;
 

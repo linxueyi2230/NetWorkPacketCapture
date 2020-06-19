@@ -7,8 +7,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@drawable/bg_btn"
-        >
+        android:background="@drawable/bg_btn">
 
         <ImageView
             android:id="@+id/select_icon"
