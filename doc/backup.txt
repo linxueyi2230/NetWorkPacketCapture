@@ -3,3 +3,5 @@
 https://github.com/huolizhuminh/NetWorkPacketCapture
 https://blog.csdn.net/u013793399/article/details/51474831
 
+装饰设计模式 - RecyclerView添加头部和底部
+https://www.jianshu.com/p/dd0925261a4c
