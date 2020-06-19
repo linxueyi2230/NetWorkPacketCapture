@@ -65,7 +65,7 @@ public class SplashActivity extends BaseActivity {
     private void toMainActivity() {
         long delay = 3 * 1000;
         if (BuildConfig.DEBUG) {
-            delay = 100;
+            delay = 3 * 1000;
         }
         new Handler().postDelayed(new Runnable() {
             @Override
