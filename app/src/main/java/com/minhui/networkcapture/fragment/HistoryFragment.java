@@ -1,4 +1,4 @@
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.fragment;
 
 
 import android.os.Bundle;
@@ -12,6 +12,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import com.minhui.networkcapture.activity.ConnectionListActivity;
+import com.minhui.networkcapture.R;
 import com.minhui.vpn.utils.ThreadProxy;
 import com.minhui.vpn.VPNConstants;
 

@@ -1,4 +1,4 @@
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.entity;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -20,8 +20,8 @@ import java.util.List;
 
 public class PackageShowInfo implements Parcelable {
     private static final java.lang.String NO_APP_NAME = "COM.";
-    String appName;
-    String packageName;
+    public String appName;
+    public String packageName;
     public ApplicationInfo applicationInfo;
 
     public static List<PackageShowInfo> getPackageShowInfo(Context context) {

@@ -1,4 +1,4 @@
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -17,6 +17,8 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
+import com.minhui.networkcapture.entity.PackageShowInfo;
+import com.minhui.networkcapture.R;
 import com.minhui.vpn.utils.ThreadProxy;
 
 import java.util.List;
@@ -82,7 +84,7 @@ public class PackageListActivity extends Activity {
         });
     }
 
-    class ShowPackageAdapter extends BaseAdapter {
+    private class ShowPackageAdapter extends BaseAdapter {
         int ALL = 0;
         int COMMON = 1;
         Drawable defaultDrawable;

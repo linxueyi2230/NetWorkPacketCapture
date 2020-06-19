@@ -1,4 +1,4 @@
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,6 +18,7 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.minhui.networkcapture.R;
 import com.minhui.vpn.nat.NatSession;
 import com.minhui.vpn.utils.ACache;
 import com.minhui.vpn.processparse.AppInfo;

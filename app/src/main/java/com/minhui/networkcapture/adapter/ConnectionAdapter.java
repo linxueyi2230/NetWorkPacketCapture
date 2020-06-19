@@ -1,4 +1,4 @@
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.adapter;
 
 import android.content.Context;
 import android.view.View;
@@ -7,6 +7,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.minhui.networkcapture.R;
 import com.minhui.vpn.nat.NatSession;
 import com.minhui.vpn.processparse.AppInfo;
 import com.minhui.vpn.utils.TimeFormatUtil;
@@ -23,7 +24,7 @@ public class ConnectionAdapter extends BaseAdapter {
     private final Context context;
     private List<NatSession> netConnections;
 
-    ConnectionAdapter(Context context, List<NatSession> netConnections) {
+    public ConnectionAdapter(Context context, List<NatSession> netConnections) {
         this.context = context;
         this.netConnections = netConnections;
     }

@@ -1,10 +1,12 @@
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.annotation.Nullable;
+
+import com.minhui.networkcapture.R;
 
 /**
  * @author minhui.zhu

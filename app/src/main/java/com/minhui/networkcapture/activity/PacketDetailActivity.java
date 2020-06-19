@@ -1,4 +1,4 @@
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,6 +15,8 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
+import com.minhui.networkcapture.AppConstants;
+import com.minhui.networkcapture.R;
 import com.minhui.vpn.utils.SaveDataFileParser;
 import com.minhui.vpn.utils.ThreadProxy;
 

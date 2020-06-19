@@ -14,7 +14,7 @@
 ** limitations under the License.
 */
 
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.activity;
 
 import android.Manifest;
 import android.content.ActivityNotFoundException;
@@ -38,6 +38,13 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
+import com.minhui.networkcapture.AppConstants;
+import com.minhui.networkcapture.entity.PackageShowInfo;
+import com.minhui.networkcapture.R;
+import com.minhui.networkcapture.fragment.BaseFragment;
+import com.minhui.networkcapture.fragment.CaptureFragment;
+import com.minhui.networkcapture.fragment.HistoryFragment;
+import com.minhui.networkcapture.fragment.SettingFragment;
 import com.minhui.vpn.ProxyConfig;
 import com.minhui.vpn.utils.VpnServiceHelper;
 

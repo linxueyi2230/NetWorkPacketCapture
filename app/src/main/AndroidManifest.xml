@@ -15,7 +15,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        <activity android:name="com.minhui.networkcapture.VPNCaptureActivity" >
+        <activity android:name="com.minhui.networkcapture.activity.VPNCaptureActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,16 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.minhui.networkcapture.PackageListActivity"
+            android:name="com.minhui.networkcapture.activity.PackageListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.minhui.networkcapture.PacketDetailActivity"
+            android:name="com.minhui.networkcapture.activity.PacketDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.minhui.networkcapture.ConnectionListActivity"
+            android:name="com.minhui.networkcapture.activity.ConnectionListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.minhui.networkcapture.AboutActivity"
+            android:name="com.minhui.networkcapture.activity.AboutActivity"
             android:screenOrientation="portrait" />
     </application>
 

@@ -1,4 +1,4 @@
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

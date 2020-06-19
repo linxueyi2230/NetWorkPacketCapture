@@ -1,4 +1,4 @@
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.fragment;
 
 
 import android.content.Context;
@@ -12,6 +12,9 @@ import android.widget.ListView;
 
 import androidx.annotation.Nullable;
 
+import com.minhui.networkcapture.adapter.ConnectionAdapter;
+import com.minhui.networkcapture.activity.PacketDetailActivity;
+import com.minhui.networkcapture.R;
 import com.minhui.vpn.ProxyConfig;
 import com.minhui.vpn.nat.NatSession;
 import com.minhui.vpn.processparse.AppInfo;

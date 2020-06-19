@@ -1,4 +1,4 @@
-package com.minhui.networkcapture;
+package com.minhui.networkcapture.fragment;
 
 
 import android.content.Context;
@@ -14,6 +14,9 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
+import com.minhui.networkcapture.activity.AboutActivity;
+import com.minhui.networkcapture.R;
+import com.minhui.networkcapture.utils.FileUtils;
 import com.minhui.vpn.service.FirewallVpnService;
 import com.minhui.vpn.utils.ThreadProxy;
 import com.minhui.vpn.VPNConstants;
