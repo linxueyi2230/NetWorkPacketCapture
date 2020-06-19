@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white_FFFFFFFF"
-    tools:context="com.minhui.networkcapture.activity.VPNCaptureActivity">
+    tools:context="com.ecent.capture.activity.VPNCaptureActivity">
 
     <RelativeLayout
         android:id="@+id/title"
