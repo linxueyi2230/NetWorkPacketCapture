@@ -12,4 +12,44 @@
     <color name="black_FF333333">#FF333333</color>
     <color name="color_33">#333333</color>
     <color name="div_common_edge">#ffc3cdd4</color>
+
+    <color name="e_white">#ffffff</color>
+    <color name="e_text_color">#4D4D4D</color>
+    <color name="e_transparent">#00000000</color>
+    <color name="e_gray">#BFBFBF</color>
+    <color name="e_green">#20C56C</color>
+    <color name="e_red">#ec6061</color>
+    <color name="e_orange">#ff6914</color>
+    <color name="e_pink">#DB224C</color>
+    <color name="e_yellow">#DFB900</color>
+    <color name="e_blue_pressed">#BFE6F7</color>
+    <color name="e_background">#F5F5F5</color>
+    <color name="e_black">#000000</color>
+    <color name="e_blue">#12b7f5</color>
+    <color name="e_loading">#20000000</color>
+    <color name="e_gold">#F2CB48</color>
+
+    <!-- 灰色 -->
+    <color name="gray1">#F2F2F2</color>
+    <color name="gray2">#E6E6E6</color>
+    <color name="gray3">#D9D9D9</color>
+    <color name="gray4">#CCCCCC</color>
+    <color name="gray5">#BFBFBF</color>
+    <color name="gray6">#B3B3B3</color>
+    <color name="gray7">#A6A6A6</color>
+    <color name="gray8">#999999</color>
+    <color name="gray9">#8C8C8C</color>
+    <color name="gray10">#808080</color>
+    <color name="gray11">#737373</color>
+    <color name="gray12">#666666</color>
+    <color name="gray13">#595959</color>
+    <color name="gray14">#4D4D4D</color>
+    <color name="gray15">#404040</color>
+    <color name="gray16">#333333</color>
+    <color name="gray17">#262626</color>
+    <color name="gray18">#1A1A1A</color>
+    <color name="gray19">#0D0D0D</color>
+    <color name="gray20">#000000</color>
+
+
 </resources>

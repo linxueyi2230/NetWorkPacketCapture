@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15.0dip"
+    android:background="@drawable/dialog_shadow"
+    android:orientation="vertical"
+    android:padding="10.0dip">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="用户协议与隐私政策"
+        android:textColor="@color/e_black"
+        android:textSize="17.0sp" />
+
+    <TextView
+        android:id="@+id/shadow_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5.0dip"
+        android:text="尊敬的用户，感谢您使用新影视大全App！在使用前请您务必审阅以下信息"
+        android:textColor="@color/e_black" />
+
+    <TextView
+        android:id="@+id/shadow_user_agreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.《用户协议》"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/shadow_privacy_policy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3.0dip"
+        android:text="2.《隐私政策》"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我们会在协议的允许范围内合理安全的使用您的信息。因功能需要，会提前向您取的以下权限："
+        android:textColor="@color/e_black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10.0dip"
+        android:text="· 读取存储权限，缓存图片和加载缓存图片"
+        android:textColor="@color/e_black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10.0dip"
+        android:text="· 设备标识，读取手机识别码，除此之外不作任何用途"
+        android:textColor="@color/e_black" />
+
+    <TextView
+        android:id="@+id/shadow_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10.0dip"
+        android:text="· 获取位置信息，为了精准推荐附近影视影院信息"
+        android:textColor="@color/e_black" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shadow_disagree"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/shape_disagree"
+            android:gravity="center"
+            android:paddingTop="10.0dip"
+            android:paddingBottom="10.0dip"
+            android:text="暂不使用"
+            android:textColor="@color/e_white" />
+
+        <TextView
+            android:id="@+id/shadow_agree"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/shape_agree"
+            android:gravity="center"
+            android:paddingTop="10.0dip"
+            android:paddingBottom="10.0dip"
+            android:text="同意"
+            android:textColor="@color/e_white" />
+    </LinearLayout>
+</LinearLayout>
